@@ -1,0 +1,29 @@
+model:
+  batch_size: 64
+  z_dim: 50
+  n_output: 784
+
+  encoder_h1: 512
+  encoder_h2: 256
+  encoder_h3: 128
+
+  decoder_h1: 128
+  decoder_h2: 256
+  decoder_h3: 512
+
+train:
+  learning_rate: 0.00001
+  optimizer: 'Adam'                # Adagrad, Adam, Ftrl, Momentum, RMSProp, SGD
+
+  train_steps: 150000
+  model_dir: 'logs/mnist_z_50'
+
+  save_checkpoints_steps: 1000
+  check_hook_n_iter: 1000
+  min_eval_frequency: 10
+
+  print_verbose: True
+  debug: False
+
+slack:
+  webhook_url: ""                   # after training notify you using slack-webhook
