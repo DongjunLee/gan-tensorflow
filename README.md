@@ -119,8 +119,9 @@ python generate.py --config mnist --batch_size 100
 ```tensorboard --logdir logs```
 
 ## Reference
-- [hb-research/notes - Generative Adversarial Nets]
+- [hb-research/notes - Generative Adversarial Nets](https://github.com/hb-research/notes/blob/master/notes/gan.md)
 - [Paper - Generative Adversarial Nets](https://arxiv.org/abs/1406.2661)
+- [TensorFlow-GAN (TFGAN)](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/gan) (GANEstimator)
 
 ## Author
 
