@@ -36,6 +36,7 @@ Reference : [hb-config](https://github.com/hb-research/hb-config), [Dataset](htt
 ## To do
 
 - Using [GANEstimator](https://www.tensorflow.org/versions/master/api_docs/python/tf/contrib/gan/estimator/GANEstimator)
+- Since it is not currently compatible with the GANESTimator and [Experiment](https://www.tensorflow.org/api_docs/python/tf/contrib/learn/Experiment), I will be working on it later.
 
 
 ## Config
